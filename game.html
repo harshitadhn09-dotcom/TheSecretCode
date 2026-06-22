@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Secret Code</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <h1>THE SECRET CODE</h1>
+    <h4>Agent Status: ACTIVE </h4>
+     <h4>Headquaters has locked a secret code between 1 and 100.</h4>
+     <h3>Enter Your Guess: </h3>
+      <input
+          
+            type="number"
+            id="guessInput"
+            placeholder="Enter your guess"
+            min="1"
+            max="100"
+        >
+
+        <br><br>
+
+        <button id="guessButton" onclick="checkGuess()">
+            TRANSMIT
+        </button>
+
+        <h3 id="attempts">
+            Transmission Attempts: 0
+        </h3>
+
+
+        <h3>Mission Log</h3>
+        <div id="missionLog">
+            <p>Awaiting first transmission...</p>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
