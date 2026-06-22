@@ -14,7 +14,8 @@ function checkGuess(){
     let missionLog = document.getElementById("missionLog");
 
     if (guess === secretCode) {
-    missionLog.textContent = "ACCESS GRANTED. CODE VERIFIED.";}
+    window.location.href = "access-granted.html";
+    }
 
     else if (guess > secretCode) {
     missionLog.textContent = "CODE EXCEEDS TARGET VALUE.";
@@ -26,4 +27,4 @@ function checkGuess(){
 
 }
 
-    
+   
