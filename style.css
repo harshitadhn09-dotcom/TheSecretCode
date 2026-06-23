@@ -3,7 +3,10 @@ body{
     color: #00ff66;
     font-family: Consolas, monospace;
     text-align: center;
-    display:ruby-base
+   margin-left: 300px;
+   margin-right: 300px;
+
+    
 }
 h1{
     font-size: 60px;

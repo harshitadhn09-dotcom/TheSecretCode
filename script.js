@@ -18,11 +18,11 @@ function checkGuess(){
     }
 
     else if (guess > secretCode) {
-    missionLog.textContent = "CODE EXCEEDS TARGET VALUE.";
+    missionLog.textContent = "CODE TOO HIGH.";
     }
 
     else {
-    missionLog.textContent = "CODE BELOW TARGET VALUE.";    
+    missionLog.textContent = "CODE TOO LOW.";    
     }
 
 }
